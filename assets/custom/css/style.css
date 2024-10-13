@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Baskvill';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Baskvill.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rosalinda';
+    font-weight: normal;
+    font-style: normal;
+    src: url('../fonts/Rosalinda-Regular.otf') format('opentype');
+}
+
+html,
+body,
+* {
+    font-family: Baskvill, Arial, Helvetica, sans-serif !important;
+}
+
+.rosalinda-font {
+    font-family: Rosalinda, Arial, Helvetica, sans-serif !important;
+    font-weight: 200;
+}
+
+#menu-3 .mbr-table-cell {
+    text-align: center;
+}
+
+#menu-3 .mbr-table-cell .nav-dropdown {
+    display: inline-block !important;
+}
+
+#menu-3 .mbr-table-cell .nav-dropdown .nav-item.dropdown .dropdown-menu .dropdown-item .flag-icon {
+    margin-right: 5px;
+}
+
+#menu-3 .mbr-table-cell .nav-dropdown .nav-item.dropdown .dropdown-menu {
+    top: auto;
+}
+
+#menu-3 .mbr-table-cell .link {
+    margin: 1em;
+    font-size: 1.8em;
+    font-family: Rosalinda, Arial, Helvetica, sans-serif !important;
+    font-weight: 200;
+}
+
+#menu-3 .nav-dropdown .link.dropdown-toggle::after {
+    right: 0;
+}
+
+#menu-3 .nav-dropdown .link.dropdown-toggle[aria-expanded="true"] {
+    margin: 0;
+    padding: 1em;
+}
+
+#menu-3 .mbr-table-cell .link .logo {
+    width: 100px;
+}
+
+#slider-4 .mbr-section-lead {
+    margin: 0;
+    padding-top: 60px;
+    font-style: normal;
+    letter-spacing: 0px;
+    font-stretch: condensed;
+    font-weight: 200;
+    font-size: 3em;
+    font-family: Rosalinda, Arial, Helvetica, sans-serif !important;
+    text-align: center;
+}
+
+#slider-4 .mbr-section-lead-sub {
+    margin-top: 15px;
+    font-style: normal;
+    letter-spacing: 5px;
+    font-stretch: condensed;
+    font-weight: 200;
+    font-size: 2em;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#slider-4 .mbr-overlay {
+    background-color: rgb(36, 26, 14);
+}
+
+#slider-4 .mbr-section-title .logo {
+    width: 200px;
+}
+
+#msg-box5-5 .image-size .mbr-figure,
+#msg-box5-5 .image-size .mbr-figure img {
+    padding: 0px;
+    margin: auto;
+}
+
+#msg-box5-5 .mbr-table-cell .content {
+    padding: 30px;
+    text-align: left;
+}
+
+#msg-box5-5 .mbr-table-cell .content .mbr-section-title {
+    border-bottom: 2px solid rgba(0, 0, 0, .8);
+    line-height: 1.5em;
+    display: inline-block;
+    font-weight: 200;
+    font-family: Rosalinda, Arial, Helvetica, sans-serif !important;
+}
+
+#msg-box5-5 .mbr-table-cell .content .links p {
+    display: inline-block;
+}
+
+#msg-box5-5 .mbr-table-cell .content .btn {
+    width: 100px;
+    height: 100px;
+    padding: 25px 0;
+    border-radius: 50%;
+    background-color: transparent;
+    font-stretch: ultra-condensed;
+}
+
+#content5-9 .lead .header {
+    margin: 0px;
+    color: #999;
+}
+
+#features3-b .mbr-overlay {
+    background-color: rgb(35, 60, 78) !important;
+}
+
+#features3-b .menu-header {
+    position: relative;
+    padding: 50px 20px 0px 20px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1em;
+}
+
+#features3-b .menu-header h2 {
+    font-size: 3em;
+}
+
+#features3-b .menu-header p {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+#features3-b .menu-header * {
+    margin: 0px;
+    padding: 0px;
+}
+
+#features3-b .menu-header h2 {
+    margin-bottom: 10px;
+}
+
+#features3-b .menu-header p {
+    letter-spacing: 5px;
+}
+
+#features3-b .mbr-cards-col .card {
+    text-align: center;
+}
+
+#features3-b .mbr-cards-col .card .card-img img {
+    width: 100%;
+}
+
+#features3-b .mbr-cards-col .card .card-block {
+    position: relative;
+    padding: 0;
+}
+
+#features3-b .mbr-cards-col .card .card-title {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 30px;
+    background-color: #fff;
+    color: #b8312f;
+    line-height: 2em;
+    font-size: 2.5em;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+#features3-b .mbr-cards-col .card .card-text {
+    display: inline-block;
+    padding: 15px;
+    background-color: #fff;
+}
+
+#content2-c {
+    padding: 0;
+    background-color: #c2272d;
+}
+
+#content2-c img {
+    width: 100%;
+}
+
+#header3-g {
+    padding-top: 30px;
+}
+
+#header3-g .mbr-section-title {
+    font-stretch: expanded;
+    letter-spacing: 5px;
+}
+
+#header3-g .mbr-section-subtitle {
+    font-size: 2em;
+    padding: 10px;
+    color: #000000;
+}
+
+#msg-box3-j .lead p {
+    color: #999;
+}
+
+#form2-o #generated-ticked {
+    font-size: 1.5em;
+}
+
+#form2-o .mbr-section-title {
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+
+.custom-modal .hidden {
+    visibility: visible !important;
+}
+
+.custom-modal .modal-dialog .modal-content {
+    border-radius: 0;
+}
+
+.custom-modal .modal-header {
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(193, 40, 45);
+}
+
+.custom-modal .modal-header .title {
+    margin: 0;
+    color: rgb(193, 40, 45);
+    font-weight: 200;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+.custom-modal .modal-body {
+    max-height: 400px;
+    padding: 30px;
+    overflow: auto;
+}
+
+.custom-modal .modal-body .media {
+    margin-bottom: 15px;
+    border-bottom: 1px dashed rgb(200, 193, 185);
+}
+
+.custom-modal .modal-body .media-object {
+    width: 30px;
+    height: 30px;
+}
+
+.custom-modal .modal-body .media-body p {
+    color: #999999;
+}
+
+.custom-modal .modal-footer {
+    padding-left: 80px;
+    text-align: left;
+    background: url(../../images/download.png);
+    background-position: 15px center;
+    background-size: auto 30px;
+    background-repeat: no-repeat;
+    background-color: rgb(200, 193, 185);
+}
+
+.custom-modal .modal-footer .btn.download {
+    color: rgb(71, 51, 27);
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+.custom-modal .modal-footer .pull-right {
+    float: right;
+}
+
+#contacts1-n .mbr-footer-content img {
+    width: 200px;
+}
+
+
+/* Utils */
+.container-fluid-full {
+    padding: 0px;
+}
+
+hr.divider-xs {
+    display: inline-block;
+    width: 30%;
+    border-top: 2px solid rgba(0, 0, 0, .8);
+}
+
+.text-center {
+    text-align: center;
+}
